@@ -1,7 +1,7 @@
 # Hello Java Maven - Jenkins Build Task
 - `src/main/java/HelloWorld.java`: Java code (default package).
 - `pom.xml`: Maven config with executable JAR.
-- `screenshot.png`: Jenkins build success.
+- `screenshot- 1.png, 2.png, 3.png`: Jenkins build success.
 ## Steps
 1. Created Java app with Maven.
 2. Set up Jenkins in Docker.
