@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>helloww</artifactId>  <!-- Set to helloww to match JAR name -->
+  <artifactId>helloww</artifactId>
   <version>1.0</version>
 
   <build>
@@ -19,8 +19,6 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-
-      <!-- Plugin to make JAR executable with correct main class for default package -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -30,7 +28,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>HelloWorld</mainClass>  <!-- Fixed: Default package, no com.example -->
+              <mainClass>HelloWorld</mainClass>
             </manifest>
           </archive>
         </configuration>
